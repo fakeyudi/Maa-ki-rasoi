@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF08CDC12908FCB800C613F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF08CDC02908FCB800C613F8 /* AppDelegate.swift */; };
+		AF08CDC32908FCB800C613F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF08CDC22908FCB800C613F8 /* SceneDelegate.swift */; };
+		AF08CDC52908FCB800C613F8 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF08CDC42908FCB800C613F8 /* InitialViewController.swift */; };
+		AF08CDC82908FCB800C613F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF08CDC62908FCB800C613F8 /* Main.storyboard */; };
+		AF08CDCA2908FCBA00C613F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF08CDC92908FCBA00C613F8 /* Assets.xcassets */; };
+		AF08CDCD2908FCBA00C613F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF08CDCB2908FCBA00C613F8 /* LaunchScreen.storyboard */; };
+		AF08CDD529090D7900C613F8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF08CDD429090D7900C613F8 /* SignUpViewController.swift */; };
+		AF08CDD729090E6300C613F8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF08CDD629090E6300C613F8 /* Extensions.swift */; };
+		AF08CDD92909124800C613F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF08CDD82909124800C613F8 /* LoginViewController.swift */; };
+		AFB10A12291A1AF40072B135 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AFB10A11291A1AF40072B135 /* IQKeyboardManagerSwift */; };
+		AFB10A14291A1FE90072B135 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB10A13291A1FE90072B135 /* RestaurantTableViewCell.swift */; };
+		AFB10A16291A20C80072B135 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB10A15291A20C80072B135 /* HomeViewController.swift */; };
+		AFB10A18291A241F0072B135 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB10A17291A241F0072B135 /* DB.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF08CDBD2908FCB800C613F8 /* Maa_Ki_Rasoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maa_Ki_Rasoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF08CDC02908FCB800C613F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF08CDC22908FCB800C613F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF08CDC42908FCB800C613F8 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		AF08CDC72908FCB800C613F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF08CDC92908FCBA00C613F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF08CDCC2908FCBA00C613F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF08CDCE2908FCBA00C613F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF08CDD429090D7900C613F8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AF08CDD629090E6300C613F8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AF08CDD82909124800C613F8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AFB10A13291A1FE90072B135 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		AFB10A15291A20C80072B135 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AFB10A17291A241F0072B135 /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF08CDBA2908FCB800C613F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB10A12291A1AF40072B135 /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF08CDB42908FCB800C613F8 = {
+			isa = PBXGroup;
+			children = (
+				AF08CDBF2908FCB800C613F8 /* Maa_Ki_Rasoi */,
+				AF08CDBE2908FCB800C613F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF08CDBE2908FCB800C613F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF08CDBD2908FCB800C613F8 /* Maa_Ki_Rasoi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF08CDBF2908FCB800C613F8 /* Maa_Ki_Rasoi */ = {
+			isa = PBXGroup;
+			children = (
+				AF08CDC02908FCB800C613F8 /* AppDelegate.swift */,
+				AF08CDC22908FCB800C613F8 /* SceneDelegate.swift */,
+				AF08CDC42908FCB800C613F8 /* InitialViewController.swift */,
+				AF08CDC62908FCB800C613F8 /* Main.storyboard */,
+				AFB10A15291A20C80072B135 /* HomeViewController.swift */,
+				AFB10A17291A241F0072B135 /* DB.swift */,
+				AFB10A13291A1FE90072B135 /* RestaurantTableViewCell.swift */,
+				AF08CDD429090D7900C613F8 /* SignUpViewController.swift */,
+				AF08CDD82909124800C613F8 /* LoginViewController.swift */,
+				AF08CDD629090E6300C613F8 /* Extensions.swift */,
+				AF08CDC92908FCBA00C613F8 /* Assets.xcassets */,
+				AF08CDCB2908FCBA00C613F8 /* LaunchScreen.storyboard */,
+				AF08CDCE2908FCBA00C613F8 /* Info.plist */,
+			);
+			path = Maa_Ki_Rasoi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF08CDBC2908FCB800C613F8 /* Maa_Ki_Rasoi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF08CDD12908FCBA00C613F8 /* Build configuration list for PBXNativeTarget "Maa_Ki_Rasoi" */;
+			buildPhases = (
+				AF08CDB92908FCB800C613F8 /* Sources */,
+				AF08CDBA2908FCB800C613F8 /* Frameworks */,
+				AF08CDBB2908FCB800C613F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Maa_Ki_Rasoi;
+			packageProductDependencies = (
+				AFB10A11291A1AF40072B135 /* IQKeyboardManagerSwift */,
+			);
+			productName = Maa_Ki_Rasoi;
+			productReference = AF08CDBD2908FCB800C613F8 /* Maa_Ki_Rasoi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF08CDB52908FCB800C613F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					AF08CDBC2908FCB800C613F8 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = AF08CDB82908FCB800C613F8 /* Build configuration list for PBXProject "Maa_Ki_Rasoi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF08CDB42908FCB800C613F8;
+			packageReferences = (
+				AFB10A10291A1AF40072B135 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = AF08CDBE2908FCB800C613F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF08CDBC2908FCB800C613F8 /* Maa_Ki_Rasoi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF08CDBB2908FCB800C613F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF08CDCD2908FCBA00C613F8 /* LaunchScreen.storyboard in Resources */,
+				AF08CDCA2908FCBA00C613F8 /* Assets.xcassets in Resources */,
+				AF08CDC82908FCB800C613F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF08CDB92908FCB800C613F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF08CDD92909124800C613F8 /* LoginViewController.swift in Sources */,
+				AF08CDD729090E6300C613F8 /* Extensions.swift in Sources */,
+				AFB10A18291A241F0072B135 /* DB.swift in Sources */,
+				AF08CDC52908FCB800C613F8 /* InitialViewController.swift in Sources */,
+				AFB10A16291A20C80072B135 /* HomeViewController.swift in Sources */,
+				AF08CDC12908FCB800C613F8 /* AppDelegate.swift in Sources */,
+				AF08CDD529090D7900C613F8 /* SignUpViewController.swift in Sources */,
+				AFB10A14291A1FE90072B135 /* RestaurantTableViewCell.swift in Sources */,
+				AF08CDC32908FCB800C613F8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF08CDC62908FCB800C613F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF08CDC72908FCB800C613F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF08CDCB2908FCBA00C613F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF08CDCC2908FCBA00C613F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF08CDCF2908FCBA00C613F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF08CDD02908FCBA00C613F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF08CDD22908FCBA00C613F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5966D3T864;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Maa_Ki_Rasoi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Maa ki Rasoi";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.fakeyudi.Maa-Ki-Rasoi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF08CDD32908FCBA00C613F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5966D3T864;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Maa_Ki_Rasoi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Maa ki Rasoi";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.fakeyudi.Maa-Ki-Rasoi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF08CDB82908FCB800C613F8 /* Build configuration list for PBXProject "Maa_Ki_Rasoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF08CDCF2908FCBA00C613F8 /* Debug */,
+				AF08CDD02908FCBA00C613F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF08CDD12908FCBA00C613F8 /* Build configuration list for PBXNativeTarget "Maa_Ki_Rasoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF08CDD22908FCBA00C613F8 /* Debug */,
+				AF08CDD32908FCBA00C613F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AFB10A10291A1AF40072B135 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AFB10A11291A1AF40072B135 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFB10A10291A1AF40072B135 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AF08CDB52908FCB800C613F8 /* Project object */;
+}
